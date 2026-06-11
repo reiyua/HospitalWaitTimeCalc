@@ -6,7 +6,7 @@ from flask import Flask
 
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-model_path = os.path.join(BASE_DIR, "model.pkl")
+model_path = os.path.join(BASE_DIR, "models/main.pkl")
 # to get your model: joblib.dump(model, "model.pkl")
 
 model = joblib.load(model_path)
