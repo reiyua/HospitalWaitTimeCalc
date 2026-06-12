@@ -1,10 +1,10 @@
-# 🏥 Hospital Wait Time Calculator
+# Hospital Wait Time Calculator
 
 Machine learning model + web app to predict hospital wait times for a fictional hospital based on fictional data.
 
 ---
 
-## 🌐 Live Demo
+## Live Demo
 
 Azure:  
 https://rayyan-h-tafe-nsw-indigo-hospital-wait-time-calculator.azurewebsites.net/
@@ -14,7 +14,7 @@ https://rayyan-h-tafe-nsw-indigo-hospital-wait-time-calculator.fly.dev/
 
 ---
 
-## 📌 About
+## About
 
 HospitalWaitTimeCalc
 
@@ -22,9 +22,9 @@ Predicts how long a patient will wait based on appointment details.
 
 ---
 
-## 🧠 Model
+## Model
 
-- Regression model  
+- Regression model  (XGBoost)
 - Output: Wait time (minutes)  
 
 Inputs:
@@ -36,7 +36,7 @@ Inputs:
 
 ---
 
-## ⚙️ Tech
+## Tech
 
 - Python  
 - scikit-learn  
@@ -45,10 +45,12 @@ Inputs:
 
 ---
 
-## 🚀 Run
+## Run
 
 ```bash
 git clone https://github.com/reiyua/ICTAII501
 cd ICTAII501
 pip install -r requirements.txt
 python app.py
+
+
