@@ -13,3 +13,4 @@ numpy
 scikit-learn
 flask
 joblib
+gunicorn
