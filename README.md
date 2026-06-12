@@ -39,7 +39,9 @@ Inputs:
 ## Tech
 
 - Python  
-- scikit-learn  
+- scikit-learn
+- XGBoost
+- JobLib  
 - Pandas / NumPy  
 - Flask  
 
