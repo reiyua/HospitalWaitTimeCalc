@@ -56,6 +56,3 @@ def show_waiting_time():
 	
 	return render_template('WaitingTime.html', waittime=round(max(0,prediction[0])))
 	
-
-if __name__ == '__main__':
-    app.run(debug=True)
