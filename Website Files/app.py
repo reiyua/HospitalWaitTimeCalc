@@ -54,7 +54,7 @@ def show_waiting_time():
 	# model = joblib.load({folder and model name})
 	prediction = model.predict(Xnp)
 	
-	return render_template('WaitingTime.html', waittime=round(prediction[0]))
+	return render_template('WaitingTime.html', waittime=round(max(0,prediction[0])))
 	
 
 if __name__ == '__main__':
