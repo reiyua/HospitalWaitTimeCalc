@@ -47,7 +47,8 @@ Inputs:
 
 ---
 
-#Run Notebook in MyBinder
+## Run Notebook in MyBinder:
+
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/reiyua/HospitalWaitTimeCalc/HEAD?urlpath=%2Fdoc%2Ftree%2FHospitalWaitTimeCalc.ipynb)
 
 ---
