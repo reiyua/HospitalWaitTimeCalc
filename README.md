@@ -43,16 +43,23 @@ Inputs:
 - XGBoost
 - JobLib  
 - Pandas / NumPy  
-- Flask  
+- Flask
 
 ---
 
-## Run
+#Run Notebook in MyBinder
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/reiyua/HospitalWaitTimeCalc/HEAD?urlpath=%2Fdoc%2Ftree%2FHospitalWaitTimeCalc.ipynb)
+
+---
+
+## Run Web App
 
 ```bash
 git clone https://github.com/reiyua/HospitalWaitTimeCalc
 cd ICTAII501
 pip install -r requirements.txt
 python app.py
+
+
 
 
