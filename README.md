@@ -4,7 +4,7 @@ Machine learning model + web app to predict hospital wait times for a fictional 
 
 ---
 
-## Live Demo
+## Live Demo of Web App
 
 Azure:  
 https://rayyan-h-tafe-nsw-indigo-hospital-wait-time-calculator.azurewebsites.net/
