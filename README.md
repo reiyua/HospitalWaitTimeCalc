@@ -1,7 +1,54 @@
-# GitHub Codespaces ♥️ Jupyter Notebooks
+# 🏥 Hospital Wait Time Calculator
 
-Welcome to your shiny new codespace! We've got everything fired up and running for you to explore Python and Jupyter notebooks.
+Machine learning model + web app to predict hospital wait times for a fictional hospital based on fictional data.
 
-You've got a blank canvas to work on from a git perspective as well. There's a single initial commit with what you're seeing right now - where you go from here is up to you!
+---
 
-Everything you do here is contained within this one codespace. There is no repository on GitHub yet. If and when you’re ready you can click "Publish Branch" and we’ll create your repository and push up your project. If you were just exploring then and have no further need for this code then you can simply delete your codespace and it's gone forever.
+## 🌐 Live Demo
+
+Azure:  
+https://rayyan-h-tafe-nsw-indigo-hospital-wait-time-calculator.azurewebsites.net/
+
+Fly.io (Mirror):  
+https://rayyan-h-tafe-nsw-indigo-hospital-wait-time-calculator.fly.dev/
+
+---
+
+## 📌 About
+
+HospitalWaitTimeCalc
+
+Predicts how long a patient will wait based on appointment details.
+
+---
+
+## 🧠 Model
+
+- Regression model  
+- Output: Wait time (minutes)  
+
+Inputs:
+- Day  
+- Time  
+- Age  
+- Gender  
+- Doctor  
+
+---
+
+## ⚙️ Tech
+
+- Python  
+- scikit-learn  
+- Pandas / NumPy  
+- Flask  
+
+---
+
+## 🚀 Run
+
+```bash
+git clone https://github.com/reiyua/ICTAII501
+cd ICTAII501
+pip install -r requirements.txt
+python app.py
