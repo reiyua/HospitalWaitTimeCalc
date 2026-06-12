@@ -50,7 +50,7 @@ Inputs:
 ## Run
 
 ```bash
-git clone https://github.com/reiyua/ICTAII501
+git clone https://github.com/reiyua/HospitalWaitTimeCalc
 cd ICTAII501
 pip install -r requirements.txt
 python app.py
