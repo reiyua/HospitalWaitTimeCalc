@@ -6,7 +6,7 @@ from flask import Flask
 
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-model_path = os.path.join(BASE_DIR, "model.pkl")
+model_path = os.path.join(BASE_DIR, "models/main.pkl")
 # to get your model: joblib.dump(model, "model.pkl")
 
 model = joblib.load(model_path)
@@ -54,8 +54,8 @@ def show_waiting_time():
 	# model = joblib.load({folder and model name})
 	prediction = model.predict(Xnp)
 	
-	return render_template('WaitingTime.html', waittime=round(prediction[0]))
+	return render_template('WaitingTime.html', waittime=round(max(0,prediction[0])))
 	
 
 if __name__ == '__main__':
-    app.run()
+    app.run(debug=True)
